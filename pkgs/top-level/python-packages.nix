@@ -2664,11 +2664,15 @@ in {
 
   httmock = callPackage ../development/python-modules/httmock { };
 
+  http_prompt = callPackage ../development/python-modules/http_prompt { };
+
   http_signature = callPackage ../development/python-modules/http_signature { };
 
   httpbin = callPackage ../development/python-modules/httpbin { };
 
   httplib2 = callPackage ../development/python-modules/httplib2 { };
+
+  httpie = callPackage ../development/python-modules/httpie { };
 
   hvac = callPackage ../development/python-modules/hvac { };
 
